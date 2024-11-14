@@ -1,11 +1,6 @@
-//
-//  ViewController.swift
-//  calculator_personal
-//
-//  Created by jae hoon lee on 11/14/24.
-//
 
 import UIKit
+import SnapKit
 
 class ViewController: UIViewController {
 
