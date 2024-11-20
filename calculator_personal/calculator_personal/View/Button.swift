@@ -36,13 +36,6 @@ class ButtonUI {
     // 버튼으로 받은 입력값 처리
     @objc func tappedButton(_ sender: UIButton) {
         guard let title = sender.currentTitle else {return}
-        guard title != "AC" else {
-            DispatchQueue.main.async {
-                ViewController.result = "0"
-                ViewController.label.text = ViewController.result
-            }
-            return
-        }
         if ViewController.result == "0" {
             ViewController.result = ""
             DispatchQueue.main.async {
