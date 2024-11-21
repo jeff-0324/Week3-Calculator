@@ -19,6 +19,7 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
+				Model/Calculate.swift,
 			);
 			target = F902A2AC2CE61823005772A1 /* calculator_personal */;
 		};
